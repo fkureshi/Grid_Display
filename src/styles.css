@@ -1,0 +1,18 @@
+.container {
+  background-color: tomato;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.item {
+  background-color: black;
+  height: 122px;
+}
+
+.item.item-1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
